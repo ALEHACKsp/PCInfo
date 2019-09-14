@@ -27,7 +27,7 @@
         public static readonly string UserName = Environment.UserName;
         public static readonly string SystemDir = Environment.SystemDirectory;
         public static readonly int ProcessorCount = Environment.ProcessorCount;
-        private const bool True = true;
+        private bool True = true;
 
         public static string OSBit
         {
